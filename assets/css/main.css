@@ -1,0 +1,52 @@
+@import url("fontawesome-all.min.css");
+
+
+p{
+    text-align: center;
+}
+
+img{
+    display: block;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    height: 15%;
+}
+
+h1{
+    text-align: center;
+}
+
+.wrapper{
+    padding: 8em 0 8em 0;
+}
+
+nav{
+    text-align: center;
+    background-color: rgb(95, 95, 95);
+    width: 100%;
+    position:fixed
+}
+nav li{
+    display: inline;
+    color: white;
+    font-size: 30px;
+    
+}
+nav a{
+    border: 50px;
+    border-radius: 8px;
+    height: 6em;
+	line-height: 2.5em;
+    padding: 1em 1.25em 1em;
+    color: white;
+    text-decoration: none;
+    -moz-transition: background-color .2s ease-in-out;
+	-webkit-transition: background-color .2s ease-in-out;
+	-ms-transition: background-color .2s ease-in-out;
+	transition: background-color .2s ease-in-out;
+}
+nav a:hover{
+    background: rgb(126, 126, 126)
+}
