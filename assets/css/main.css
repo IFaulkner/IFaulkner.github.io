@@ -3,7 +3,10 @@
 
 p{
     text-align: center;
+    font-size: 25px;
 }
+
+
 
 img{
     display: block;
@@ -19,26 +22,55 @@ h1{
 }
 
 .wrapper{
-    padding: 8em 0 8em 0;
+    padding: 2em 0 8em 0;
+}
+
+.foot{
+    text-align:center;
+    background-color: rgb(95, 95, 95);
+    width: 100%;
+}
+
+ul.contact{
+    text-align: center;
+}
+ul.contact li{
+    display: inline;
+    color: white;
+    text-align: center;
+}
+
+ul.contact i{
+    line-height: 1.5em;
+    height: 2em;
+    padding-top: 0em;
+    padding-left: 2.5em;
+    padding-right: 2.5em;
+    text-align: center;
+    font-size: 40px;
+}
+
+ul.contact a{
+    color: white;
 }
 
 nav{
-    text-align: center;
+    text-align:center;
     background-color: rgb(95, 95, 95);
     width: 100%;
-    position:fixed
 }
 nav li{
-    display: inline;
+    display: inline-block;
     color: white;
     font-size: 30px;
+    padding: 1em 1.25em 1em;
     
 }
 nav a{
     border: 50px;
     border-radius: 8px;
     height: 6em;
-	line-height: 2.5em;
+	line-height: 3.5em;
     padding: 1em 1.25em 1em;
     color: white;
     text-decoration: none;
@@ -49,4 +81,5 @@ nav a{
 }
 nav a:hover{
     background: rgb(126, 126, 126)
+    
 }
